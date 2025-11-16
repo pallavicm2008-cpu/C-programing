@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+int a,b;
+printf("Enter two numbers:");
+scanf("%d",&a,&b);
+if(a==b)
+{
+    printf("%d is equal to %d\n",a,b);
+}
+ else if (a>b)
+{
+    printf("%d is greater than %d\n",a,b);
+}
+ else (a<b)
+{
+    printf("%d is smaller than %d\n",a,b);
+}
+    return 0;
+}
+OUTPUT:
+Enter two numbers:5 10
+5 is smaller than 10
