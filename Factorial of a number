@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+int n;
+int fact=1;
+printf(“enter a number:”);
+scanf(“%d”,&n);
+If(n<0)
+printf(“factorial is not defined for negative number.\n”);
+else{
+for(int i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+printf(“Factorial of %d=%d\n”,n,fact);
+}
+return 0;
+}
+
+OUTPUT:
+Ener a  number:3
+Factorial of 3=6
