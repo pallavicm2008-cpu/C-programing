@@ -1,0 +1,14 @@
+int main() {
+    int a,b;
+    int sum,average;
+    printf("enter any two integers:");
+    scanf("%d %d",&a,&b);
+    sum=a+b;
+    average=sum/2;
+    printf("sum and average of two numbers:%d %d",sum,average);
+    return 0;
+}
+
+OUTPUT
+enter any two integers:6 8
+sum and average of two numbers:14 7
